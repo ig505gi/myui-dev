@@ -22,7 +22,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "test-storybook": "test-storybook"
   },
   "eslintConfig": {
     "extends": [
@@ -55,6 +56,7 @@
   "devDependencies": {
     "@storybook/addon-actions": "^6.4.16",
     "@storybook/addon-essentials": "^6.4.16",
+    "@storybook/addon-interactions": "^6.5.9",
     "@storybook/addon-links": "^6.4.16",
     "@storybook/addon-storyshots": "^6.3.0-alpha.15",
     "@storybook/builder-webpack5": "^6.4.16",
@@ -62,6 +64,8 @@
     "@storybook/node-logger": "^6.4.16",
     "@storybook/preset-create-react-app": "^4.0.0",
     "@storybook/react": "^6.4.16",
+    "@storybook/test-runner": "^0.3.0",
+    "@storybook/testing-library": "^0.0.13",
     "react-test-renderer": "^18.1.0",
     "webpack": "^5.73.0"
   }
